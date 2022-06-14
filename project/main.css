@@ -1,0 +1,85 @@
+:root {
+  --pomodoro: hsl(226, 100%, 16%);
+  --shortBreak: hsl(0, 0%, 100%);
+  --longBreak: hsl(0, 0%, 0%);
+}
+
+body {
+  font-family: "Lobster", cursive;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  place-items: center;
+  flex-direction: column;
+}
+
+.pomidor-title {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.pomidor-title .enter-title {
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: "Lobster", cursive;
+  color: #c44747;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-top: 50px;
+  font-family: "Lobster", cursive;
+}
+.button {
+  background: #e93c3c;
+  border-radius: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 1rem 1rem;
+  line-height: 20px;
+  text-align: center;
+  border: none;
+  color: #fff8ee;
+  font-family: "Lobster", cursive;
+}
+
+.clock {
+  border: 5px solid red;
+  width: 300px;
+  height: 300px;
+  padding-top: 1rem;
+  border-radius: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  color: red;
+  font-size: 2rem;
+}
+/* .start-btns {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+} */
+.main-button {
+  background: #e93c3c;
+  border-radius: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 1rem 2.5rem;
+  line-height: 20px;
+  text-align: center;
+  border: none;
+  color: #fff8ee;
+  font-family: "Lobster", cursive;
+}
